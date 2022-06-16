@@ -4,7 +4,7 @@
 
 Este es un ecommerce de carteras de mujer, en donde se simula la compra de productos. Todo el sitio fue creado con ReactJS
 
-<img src="./src/assets/uEJvhZ_3a70d1e59277c711212c56bf3021e70a_00-00-00_00-01-02_2.gif" style="width: 100%"/>
+<img src="./src/assets/uEJvhZ_3a70d1e59277c711212c56bf3021e70a_00-00-00_00-01-02_2.gif" style="height: 30em"/>
 
 ### Páginas
 
