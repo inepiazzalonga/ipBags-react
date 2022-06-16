@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@500&display=swap');
+
+
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35em;
+    margin-left: 27%;
+    height: 500px;
+}
+
+.error img{
+    width: 20em;
+    height: auto;
+    margin-top: -2em;
+}
+
+.error h3{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    color: #8C9CA2;
+
+}

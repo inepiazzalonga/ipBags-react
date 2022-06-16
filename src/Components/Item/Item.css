@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@500&display=swap');
+
+.item {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    text-decoration: none;
+}
+
+.item_img {
+    width: 100%;
+}
+
+.item_info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.item_title{
+    font-family:  'Manrope', sans-serif;
+    text-align: left;
+    color: rgb(80, 79, 79);
+
+}
+
+.item_price{
+    font-family:  'Manrope', sans-serif;
+    color: rgb(85, 84, 84);
+
+}
+
+.masInfo{
+    padding: 0.5em;
+    border-style: none;
+    background-color: transparent;
+    font-family:  'Manrope', sans-serif;
+    font-size: 18px;
+    border-bottom: 1px gray solid;
+    text-align: center;
+    width: 100%;
+}
+
+.masInfo:hover{
+    transform: scale(0.95);
+    transition-duration: 0.2s;
+     cursor: pointer;
+}

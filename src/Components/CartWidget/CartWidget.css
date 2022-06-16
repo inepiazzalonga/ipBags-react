@@ -1,0 +1,28 @@
+.carrito{
+    width: 4em;
+    height: 4em;
+    margin-left: 2em;
+}
+
+.totalItems{
+    border-radius: 100%;
+    padding: 0.5em;
+    width: 2em;
+    height: 2em;
+    border-style: none;
+    background-color: #8C9CA2;
+    color: #fff;
+    cursor: pointer;
+}
+
+.carritoVacioWidget{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carritoVacioWidget p{
+    text-align: center;
+    width: 70%;
+    font-size: 13px;
+}

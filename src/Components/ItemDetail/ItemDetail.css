@@ -1,0 +1,28 @@
+.itemDetail{
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    align-items: center;
+    height:fit-content;
+    padding: 3em;    
+}
+
+.detailImg{
+    /* width: 50%; */
+    padding: 1em;
+}
+.item_det_img{
+    height: 650px;
+    width: auto;
+}
+
+.detailInfo{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+
+.detailInfo p{
+    text-align: justify;
+}

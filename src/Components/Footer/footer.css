@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@500&display=swap');
+
+footer{
+    height: 8em;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.redes img{
+    width: 2em;
+    height: auto;
+}
+
+.redes img:hover{
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+    font-family:  'Manrope', sans-serif;
+    color: #884E36;
+}

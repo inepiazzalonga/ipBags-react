@@ -1,0 +1,46 @@
+.itemCount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2em;
+    width: 100%;
+    background-color: #8C9CA2;
+    border-radius: 10px;
+}
+
+.sumaResta {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+
+.sumaResta button {
+    background-color: transparent;
+    border-style: none;
+    color: #fff;
+    font-size: 17.5px;
+}
+
+.sumaResta p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.containerBotonCarrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.botonCarrito {
+    padding: 1em;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #8C9CA2;
+}
+
+.botonCarrito {
+    color: #fff;
+}

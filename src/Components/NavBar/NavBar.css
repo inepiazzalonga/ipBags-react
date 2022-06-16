@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 0ex;
+}
+
+.logoNav{
+    width: 5em;
+    height: 5em;
+    margin-top: 1.5em;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    background-color: #FDFCDC;
+}
+.navBar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.navBar ul li{
+    list-style: none;
+    text-transform: uppercase;
+    color: #8C9CA2;
+    padding: 0.5em;
+}
+
+.navBar ul li:hover{
+    border-bottom: 1px #8C9CA2 solid;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+
+@media screen and (min-width:350px){
+    
+}

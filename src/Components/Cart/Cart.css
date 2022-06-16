@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@500&display=swap');
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.carritoVacio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.carritoVacio p {
+    font-family: 'Manrope', sans-serif;
+    color: #8C9CA2;
+}
+
+.carritoVacio a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carritoVacio img {
+    width: 4em;
+    height: auto;
+}
+
+.carritoVacio img:hover {
+    animation: shake 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+
+.cartTitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #8C9CA2;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 0.2em;
+    font-weight: lighter;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px #8C9CA2 solid;
+    width: 60%;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.cartItem {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    color: #6d787c;
+    font-family: 'Manrope', sans-serif;
+    border-bottom: 1px #8C9CA2 solid;
+    padding: 0.5em;
+    width: 75%;
+}
+
+.img-cart {
+    width: 5em;
+    height: auto;
+}
+
+.totalCompra {
+    text-align: center;
+    color: #6d787c;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.delete-item {
+    border-radius: 100%;
+    padding: 0.5em;
+    width: 2em;
+    height: 2em;
+    border-style: none;
+    background-color: #8C9CA2;
+    color: #fff;
+    cursor: pointer;
+}
+
+.delete-button {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1em;
+    border: 2px #8C9CA2 solid;
+    border-radius: 15px;
+    background-color: transparent;
+    font-family: 'Manrope', sans-serif;
+    text-transform: uppercase;
+    color: #8C9CA2;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #8C9CA2;
+    color: #fff;
+    transition-duration: 0.5s;
+}

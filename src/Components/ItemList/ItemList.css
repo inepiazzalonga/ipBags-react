@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@500&display=swap');
+
+.product-list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 3em;
+    gap: 4em;
+    row-gap: 1.5em;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.itemInList{
+    width: 20%;
+}
+
+.loaderInicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loader{
+    width: auto;
+    height: 10em;
+}
+
+.loading{
+    font-family:  'Manrope', sans-serif;
+    color: #8C9CA2;
+    text-transform: uppercase;
+    font-size: 19px;
+}

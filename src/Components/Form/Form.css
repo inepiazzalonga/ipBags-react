@@ -1,0 +1,38 @@
+.cartInfo {
+    width: 90%;
+
+}
+
+.cartInfo form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    align-items: center;
+    margin-left: 8%;
+}
+
+.cartInfo form input {
+    width: 90%;
+    border-style: none;
+    border-bottom: 1px gray solid;
+    background-color: transparent;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.cartInfo form button {
+    background-color: #8C9CA2;
+    padding: 0.5em;
+    border-radius: 10px;
+    color: #fff;
+    border-style: none;
+    width: 50%;
+}
+
+.cartInfo form button:hover {
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}

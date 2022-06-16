@@ -1,0 +1,24 @@
+.buyButton{
+    
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        border-radius: 10px;
+}
+.button{
+    padding: 1.5em 4em 1.5em 4em;
+    background-color: transparent;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #8C9CA2;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button:hover{
+    transform: scale(1.06);
+    transition-duration: 0.5s;
+}
