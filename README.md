@@ -4,7 +4,7 @@
 
 Este es un ecommerce de carteras de mujer, en donde se simula la compra de productos. Todo el sitio fue creado con ReactJS
 
-[![Watch the video](./src/assets/proyectoFinal.mp4)]
+[![Watch the video](./src/assets/proyectofinal-ohwpltlt_j0LUcl5H.mp4)]
 
 ### Páginas
 
@@ -28,4 +28,5 @@ El deploy del sitio fue realizado en Netlify, se encuentra en este link =>
 En inicio se muestran todos los productos en ItemListContainer, ingresando a cada producto se abre itemDetail que muestra los detalles de cada uno.
 Cada itemDetail tiene un contador con botón de "agregar al carrito"
 En NavBar cada link te muestra diferentes productos de la categoria que indica.
+
 # ipBags-react
