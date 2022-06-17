@@ -23,10 +23,6 @@ Este es un ecommerce de carteras de mujer, en donde se simula la compra de produ
 
 ### Deploy
 
-El deploy del sitio fue realizado en Netlify, se encuentra en este link =>
-
-En inicio se muestran todos los productos en ItemListContainer, ingresando a cada producto se abre itemDetail que muestra los detalles de cada uno.
-Cada itemDetail tiene un contador con botón de "agregar al carrito"
-En NavBar cada link te muestra diferentes productos de la categoria que indica.
+El deploy del sitio fue realizado en Netlify, se encuentra en este link => https://ipbags.netlify.app/
 
 # ipBags-react
